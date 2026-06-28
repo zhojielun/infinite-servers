@@ -1,0 +1,15 @@
+{
+  "name": "infinite-servers",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Server fleet monitoring - Local Edition",
+  "type": "module",
+  "scripts": {
+    "init": "cd server && npm run init",
+    "dev": "cd server && npm run dev",
+    "start": "cd server && npm start",
+    "build": "cd server && npm run build",
+    "build:web": "cd web && npm run build",
+    "setup": "npm install && cd server && npm install && cd ../web && npm install"
+  }
+}

@@ -1,0 +1,12 @@
+node_modules/
+server/node_modules/
+web/node_modules/
+server/data/
+server/dist/
+dist/
+.git/
+.vscode/
+.idea/
+*.log
+.env
+.env.local
